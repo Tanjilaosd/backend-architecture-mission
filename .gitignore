@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# environment
+.env
+**/.env
+
+# build output
+dist/
+
+# module7 is its own separate git repo
+module7/

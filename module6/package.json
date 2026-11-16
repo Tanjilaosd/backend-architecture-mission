@@ -1,0 +1,30 @@
+{
+  "name": "mission2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.21.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/pg": "^8.23.1",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "pg": "^8.23.1",
+    "tsx": "^4.23.15"
+  }
+}
