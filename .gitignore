@@ -9,5 +9,5 @@ node_modules/
 # build output
 dist/
 
-# module7 is its own separate git repo
-module7/
+# module7 nested repo metadata stays out of this repo
+module7/.git/
