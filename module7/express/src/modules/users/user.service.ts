@@ -57,6 +57,7 @@ const deleteUserFromDB = async (id: string) => {
       `,
     [id],
   );
+  
   return result;
 };
 
